@@ -1,0 +1,82 @@
+Api teste
+Mensagem
+{
+  "object": "instagram",
+  "entry": [
+    {
+      "time": 1707921827098,
+      "id": "0",
+      "messaging": [
+        {
+          "sender": {
+            "id": "12334"
+          },
+          "recipient": {
+            "id": "23245"
+          },
+          "timestamp": "1527459824",
+          "message": {
+            "mid": "random_mid",
+            "text": "random_text"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+Reações
+{
+  "object": "instagram",
+  "entry": [
+    {
+      "time": 1707929363722,
+      "id": "0",
+      "messaging": [
+        {
+          "sender": {
+            "id": "12334"
+          },
+          "recipient": {
+            "id": "23245"
+          },
+          "timestamp": 233445667,
+          "reaction": {
+            "mid": "random_mid",
+            "action": "react",
+            "reaction": "love",
+            "emoji": "❤️"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+Visto
+{
+  "object": "instagram",
+  "entry": [
+    {
+      "time": 1707929561437,
+      "id": "0",
+      "messaging": [
+        {
+          "sender": {
+            "id": "12334"
+          },
+          "recipient": {
+            "id": "23245"
+          },
+          "timestamp": "1527459824",
+          "read": {
+            "mid": "last_message_id_read"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+// Documentação 
+// https://developers.facebook.com/docs/messenger-platform/instagram/features/webhook#mensagens
